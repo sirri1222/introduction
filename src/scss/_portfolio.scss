@@ -1,0 +1,62 @@
+.portfolio {
+  .inner {
+    .contents {
+      .portfolio-box {
+        .portfolio-team {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          margin-bottom: 20px;
+
+          .portfolio-left {
+            width: calc(60% - 10px);
+            text-align: center;
+            a {
+              display: block;
+              img {
+                width: 90%;
+              }
+            }
+          }
+          .portfolio-right {
+            width: calc(40% - 10px);
+          }
+        }
+        .portfolio-list {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          li {
+            width: 25%;
+            a {
+              display: block;
+              text-align: center;
+              img {
+                width: 90%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 데스크탑
+@media screen and (max-width: $desktop) {
+}
+// 타블렛
+@media screen and (max-width: $tablet) {
+}
+// 모바일
+@media screen and (max-width: $mp) {
+  .portfolio-left,
+  .portfolio-right {
+    width: 100% !important;
+  }
+  .portfolio-list {
+    li {
+      width: 50% !important;
+    }
+  }
+}

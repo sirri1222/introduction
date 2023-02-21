@@ -1,0 +1,10 @@
+.visual {
+  height: calc(100vh - 80px);
+  min-height: 650px;
+  .inner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
