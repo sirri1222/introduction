@@ -1,0 +1,28 @@
+.vision {
+  .inner {
+    .contetns {
+      .vision-list {
+        display: flex;
+        // flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        li {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+// 데스크탑
+@media screen and (max-width: $desktop) {
+}
+// 타블렛
+@media screen and (max-width: $tablet) {
+}
+// 모바일
+@media screen and (max-width: $mp) {
+  .vision-list {
+    flex-wrap: wrap;
+  }
+}

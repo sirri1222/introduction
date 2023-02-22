@@ -17,6 +17,7 @@
     }
   }
 }
+
 // 데스크탑
 @media screen and (max-width: $desktop) {
 }
@@ -25,10 +26,9 @@
 }
 // 모바일
 @media screen and (max-width: $mp) {
-  .profile .contents {
-    flex-wrap: wrap !important;
-    .profile-box {
-      width: 100% !important;
+  .skills-list {
+    li {
+      width: 50% !important;
     }
   }
 }
