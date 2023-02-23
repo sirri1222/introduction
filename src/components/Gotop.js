@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 const Gotop = () => {
+  const path = process.env.PUBLIC_URL;
   //   스크롤 위치 값 파악하기
   const bt = useRef(null);
   const scrollFN = () => {
@@ -35,8 +36,14 @@ const Gotop = () => {
           duration: 500,
         });
       }}
-    >
+    >  <img
+    src={`${path}/images/HYUNJISON.png`}
+   
+    
+    alt="로고"
+  />
       <FontAwesomeIcon icon={faArrowUp} />
+      
     </div>
   );
 };
