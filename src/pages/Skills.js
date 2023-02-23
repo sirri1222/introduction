@@ -1,6 +1,7 @@
 import React from "react";
 
 const Skills = () => {
+  const path = process.env.PUBLIC_URL;
   return (
     <section className="skills scroll">
       <div className="inner">
@@ -9,8 +10,9 @@ const Skills = () => {
         <div className="contents">
           <ul className="skills-list">
             <li>
+            
               <img
-                src="/images/skill-html.png"
+                src={`${path}/images/skill-html.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -19,7 +21,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-css.png"
+                src={`${path}/images/skill-css.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -28,7 +30,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-js.png"
+                src={`${path}/images/skill-js.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -37,7 +39,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-react.png"
+                src={`${path}/images/skill-react.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -46,7 +48,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-git.png"
+                src={`${path}/images/skill-git.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -55,7 +57,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-redux.png"
+                src={`${path}/images/skill-redux.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -64,7 +66,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-figma.png"
+                src={`${path}/images/skill-figma.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -73,7 +75,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-type.png"
+                src={`${path}/images/skill-type.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -82,7 +84,7 @@ const Skills = () => {
             </li>
             <li>
               <img
-                src="/images/skill-sass.png"
+                src={`${path}/images/skill-sass.png`}
                 alt="skill"
                 data-aos="fade-up"
                 data-aos-duration="300"

@@ -1,6 +1,7 @@
 import React from "react";
 
 const Profile = () => {
+  const path = process.env.PUBLIC_URL;
   return (
     <section className="profile scroll">
       <div className="inner">
@@ -15,10 +16,10 @@ const Profile = () => {
           data-aos-delay="500"
         >
           <div className="profile-box">
-            <img src="/images/profile_1.png" alt="profile" />
+            <img src={`${path}/images/profile_1.png`} alt="profile" />
           </div>
           <div className="profile-box">
-            <img src="/images/profile_2.png" alt="profile" />
+          <img src={`${path}/images/profile_1.png`} alt="profile" />
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@ const Visual = () => {
       <div className="inner">
         {/* 첫인상 남기기(사진/대표단어 ) */}
         {/* <img src={`${path}/images/visual.png`} alt="visual" /> */}
-        <img src="/images/visual.png" alt="visual" />
+        <img src={`${path}/images/visual.png`} alt="visual" />
         {/* Anime 샘플 */}
         <div
           ref={box}
